@@ -1,6 +1,10 @@
 public class Volvo implements Car {
 
+    private int position;
 
+    public Volvo(){
+        position = 0;
+    }
     @Override
     public int MoveForward() {
         return 0;
