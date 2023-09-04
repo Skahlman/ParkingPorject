@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db40e349-fcb9-45d2-abbc-617b2b92805a" name="Changes" comment="car class">
-      <change afterPath="$PROJECT_DIR$/src/Volvo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="db40e349-fcb9-45d2-abbc-617b2b92805a" name="Changes" comment="volvo">
       <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Volvo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Volvo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +61,7 @@
       <updated>1693827765750</updated>
       <workItem from="1693827767311" duration="252000" />
       <workItem from="1693828737838" duration="1000" />
-      <workItem from="1693828766560" duration="1479000" />
+      <workItem from="1693828766560" duration="2242000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <created>1693828833462</created>
@@ -99,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693829380828</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="volvo">
+      <created>1693830255431</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1693830255431</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +129,7 @@
     <MESSAGE value="heh" />
     <MESSAGE value="hehhuohiu" />
     <MESSAGE value="car class" />
-    <option name="LAST_COMMIT_MESSAGE" value="car class" />
+    <MESSAGE value="volvo" />
+    <option name="LAST_COMMIT_MESSAGE" value="volvo" />
   </component>
 </project>
