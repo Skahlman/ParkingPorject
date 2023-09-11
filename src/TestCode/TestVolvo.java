@@ -1,8 +1,7 @@
 package TestCode;
 
 import ProductionCode.Volvo;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.*;
 
 public class TestVolvo {
 
