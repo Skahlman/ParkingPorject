@@ -3,6 +3,8 @@ package ProductionCode;
 public class Volvo implements Car {
 
     public int position;
+    public int sensors_result = 0;
+
 
     public Volvo(){
         this.position = 0;
@@ -16,7 +18,10 @@ public class Volvo implements Car {
     @Override
     public Boolean isEmpty() {
 
-    return false;
+        if (sensors_result == 200)
+            return false;
+        else
+            return true;
     }
 
 
@@ -34,14 +39,12 @@ public class Volvo implements Car {
 
     @Override
     public void UnPark() {
-
     }
 
-    public void setSensor1(int i) {
+    public void setSensors(int i) {
+        sensors_result = i;
     }
 
-    public void setSensor2(int i) {
-    }
 
     @Override
     public String WhereIs() {
