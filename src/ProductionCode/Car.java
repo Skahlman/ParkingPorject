@@ -41,7 +41,7 @@ public interface Car {
      Test-cases: The car's position is at the beginning of the street and at another, unspecified, position in the street
 
      */
-    void MoveBackward();
+    int MoveBackward();
 
     /**
 

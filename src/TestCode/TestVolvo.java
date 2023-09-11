@@ -2,6 +2,7 @@ package TestCode;
 
 import ProductionCode.Volvo;
 import org.junit.*;
+import static org.junit.Assert.*;
 
 public class TestVolvo {
 
@@ -33,9 +34,24 @@ public class TestVolvo {
         int position_integer = car.position;
         assertEquals("The position of the car is: " + position_integer, car.WhereIs());
 
+    }
 
+    @Test
+    public void TestMoveForward(){
 
+        Volvo car = new Volvo();
+        int position_integer = car.position;
+        position_integer = position_integer + 1;
+        assertEquals(position_integer, car.MoveForward());
 
+    }
+    @Test
+    public void TestBackward(){
+
+        Volvo car = new Volvo();
+        int position_integer = car.position;
+        position_integer = position_integer -1;
+        assertEquals(position_integer, car.MoveBackward());
 
     }
 

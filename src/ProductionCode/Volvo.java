@@ -9,7 +9,8 @@ public class Volvo implements Car {
     }
     @Override
     public int MoveForward() {
-        return 0;
+        this.position++;
+        return this.position;
     }
 
     @Override
@@ -21,8 +22,9 @@ public class Volvo implements Car {
 
 
     @Override
-    public void MoveBackward() {
-
+    public int MoveBackward() {
+        this.position = this.position - 1;
+        return this.position;
     }
 
     @Override
