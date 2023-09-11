@@ -18,8 +18,8 @@ public class TestVolvo {
         //Arrange – setup the testing objects and prepare the prerequisites for your test.
 
         Volvo car = new Volvo();
-        car.setSensor1(200);
-        car.setSensor2(200);
+        car.setSensors(200);
+        
 
         //Act – perform the actual work of the test.
         Boolean result = car.isEmpty();
