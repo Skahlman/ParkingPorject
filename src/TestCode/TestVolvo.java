@@ -1,7 +1,8 @@
 package TestCode;
 
 import ProductionCode.Volvo;
-import org.junit.*;
+import org.junit.Before;
+import org.junit.Test;
 
 public class TestVolvo {
 
@@ -24,7 +25,7 @@ public class TestVolvo {
         Boolean result = car.isEmpty();
 
         // Assert – verify the result.
-        Assert.assertEquals(result,false);
+        assertEquals(result,false);
     }
 
     void TestwhereIs(){

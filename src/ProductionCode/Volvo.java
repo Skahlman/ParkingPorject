@@ -3,6 +3,8 @@ package ProductionCode;
 public class Volvo implements Car {
 
     private int position;
+    public int sensor1_result;
+    public int sensor2_result;
 
     public Volvo(){
         this.position = 0;
@@ -36,9 +38,11 @@ public class Volvo implements Car {
     }
 
     public void setSensor1(int i) {
+        sensor1_result = i;
     }
 
     public void setSensor2(int i) {
+        sensor2_result = i;
     }
 
     @Override
