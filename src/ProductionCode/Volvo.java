@@ -13,33 +13,13 @@ public class Volvo implements Car {
     }
 
     @Override
-    public void isEmpty() {
+    public Boolean isEmpty() {
 
+    return false;
     }
 
-    /**
 
-     Description
 
-     Pre-condition: Should not be in the beg
-
-     Post-condition:
-
-     Test-cases:
-
-     */
-
-    /**
-     Description
-     Moves the car one 1 meter backwards
-
-     Pre-condition:
-
-     Post-condition:
-
-     Test-cases:
-
-     */
     @Override
     public void MoveBackward() {
 
@@ -53,6 +33,12 @@ public class Volvo implements Car {
     @Override
     public void UnPark() {
 
+    }
+
+    public void setSensor1(int i) {
+    }
+
+    public void setSensor2(int i) {
     }
 
     @Override
