@@ -5,7 +5,7 @@ public class Volvo implements Car {
     private int position;
 
     public Volvo(){
-        position = 0;
+        this.position = 0;
     }
     @Override
     public int MoveForward() {
@@ -56,7 +56,7 @@ public class Volvo implements Car {
     }
 
     @Override
-    public void WhereIs() {
-
+    public String WhereIs() {
+        return "The position of the car is: " + position;
     }
 }
