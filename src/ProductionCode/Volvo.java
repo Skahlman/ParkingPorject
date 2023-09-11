@@ -2,7 +2,7 @@ package ProductionCode;
 
 public class Volvo implements Car {
 
-    private int position;
+    public int position;
 
     public Volvo(){
         this.position = 0;

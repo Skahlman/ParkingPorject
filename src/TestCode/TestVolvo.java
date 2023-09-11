@@ -1,7 +1,8 @@
 package TestCode;
 
 import ProductionCode.Volvo;
-import org.junit.*;
+import org.junit.Before;
+import org.junit.Test;
 
 public class TestVolvo {
 
@@ -24,14 +25,14 @@ public class TestVolvo {
         Boolean result = car.isEmpty();
 
         // Assert – verify the result.
-        Assert.assertEquals(result,false);
+        assertEquals(result,false);
     }
-
-    void TestwhereIs(){
+    @Test
+    public void TestwhereIs(){
 
         Volvo car = new Volvo();
-        String position = car.WhereIs();
-        assertEquals();
+        int position_integer = car.position;
+        assertEquals("The position of the car is: " + position_integer, car.WhereIs());
 
 
 
