@@ -30,8 +30,8 @@ public class TestVolvo {
         // Assert – verify the result.
         assertEquals(result,false);
     }
-
-    void TestwhereIs(){
+    @Test
+    public void TestwhereIs(){
 
         Volvo car = new Volvo();
         int position_integer = car.position;
