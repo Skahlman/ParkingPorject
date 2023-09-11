@@ -1,7 +1,8 @@
 package TestCode;
 
 import ProductionCode.Volvo;
-import org.junit.*;
+import org.junit.Before;
+import org.junit.Test;
 
 public class TestVolvo {
 
@@ -21,6 +22,18 @@ public class TestVolvo {
 
         //Act – perform the actual work of the test.
         // Assert – verify the result.
+
+    }
+
+    void TestwhereIs(){
+
+        Volvo car = new Volvo();
+        String position = car.WhereIs();
+        assertEquals();
+
+
+
+
 
     }
 
