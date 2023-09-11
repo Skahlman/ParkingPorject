@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db40e349-fcb9-45d2-abbc-617b2b92805a" name="Changes" comment="Pushing attempt to Car branch">
+    <list default="true" id="db40e349-fcb9-45d2-abbc-617b2b92805a" name="Changes" comment="Created packages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProductionCode/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductionCode/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProductionCode/Volvo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductionCode/Volvo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TestCode/TestVolvo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestCode/TestVolvo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +24,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -37,62 +34,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-  </component>
-  <component name="RunManager" selected="JUnit.TestVolvo.isEmptyTest_returnsNotEmpty">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestVolvo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestCode" />
-      <option name="MAIN_CLASS_NAME" value="TestCode.TestVolvo" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestVolvo.isEmptyTest_returnsNotEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestCode" />
-      <option name="MAIN_CLASS_NAME" value="TestCode.TestVolvo" />
-      <option name="METHOD_NAME" value="isEmptyTest_returnsNotEmpty" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.TestVolvo.isEmptyTest_returnsNotEmpty" />
-        <item itemvalue="JUnit.TestVolvo" />
-      </list>
-    </recent_temporary>
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  }
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -105,7 +51,16 @@
       <workItem from="1693828737838" duration="1000" />
       <workItem from="1693828766560" duration="57000" />
       <workItem from="1694085099099" duration="7421000" />
+      <workItem from="1694419628527" duration="240000" />
     </task>
+    <task id="LOCAL-00001" summary="Created packages">
+      <created>1694419802963</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694419802963</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +88,9 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created packages" />
   </component>
 </project>
