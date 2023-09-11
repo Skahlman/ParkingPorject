@@ -28,7 +28,7 @@ public interface Car {
      When the results are adjacent to the threshold.
 
      */
-    void isEmpty();
+    Boolean isEmpty();
 
     /**
 

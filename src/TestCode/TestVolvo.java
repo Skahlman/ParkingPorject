@@ -9,20 +9,23 @@ public class TestVolvo {
     @Before
     public void init()
     {
-        Volvo car = new Volvo();
+
     }
 
     @Test
-    void isEmptyTest_bothSensorsNoisy_returnsError()
+    public void isEmptyTest_returnsNotEmpty()
     {
         //Arrange – setup the testing objects and prepare the prerequisites for your test.
-        Boolean sensor1_result = true;
-        Boolean sensor2_result = true;
 
+        Volvo car = new Volvo();
+        car.setSensor1(200);
+        car.setSensor2(200);
 
         //Act – perform the actual work of the test.
-        // Assert – verify the result.
+        Boolean result = car.isEmpty();
 
+        // Assert – verify the result.
+        Assert.assertEquals(result,false);
     }
 
     void TestwhereIs(){
