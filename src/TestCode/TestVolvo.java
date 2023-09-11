@@ -27,12 +27,12 @@ public class TestVolvo {
         // Assert – verify the result.
         assertEquals(result,false);
     }
-
-    void TestwhereIs(){
+    @Test
+    public void TestwhereIs(){
 
         Volvo car = new Volvo();
-        String position = car.WhereIs();
-        assertEquals();
+        int position_integer = car.position;
+        assertEquals("The position of the car is: " + position_integer, car.WhereIs());
 
 
 
