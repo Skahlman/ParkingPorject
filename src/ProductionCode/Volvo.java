@@ -4,9 +4,8 @@ public class Volvo implements Car {
 
     public int position;
     public int sensors_result = 0;
-    public boolean[] parking_situation;
     public boolean parked;
-
+    boolean[] parking_situation;
 
 
     public Volvo(){
@@ -16,7 +15,11 @@ public class Volvo implements Car {
 
     @Override
     public boolean[] MoveForward() {
-        this.position++;
+        if(position != 500) // if the car is not at the end of the street -> move forward
+            this.position++;
+        else // don't move forward, just return the same parking situation
+            return parking_situation;
+
         parking_situation[position] = isEmpty(); // sets the position to empty or not empty
         return parking_situation;
     }
