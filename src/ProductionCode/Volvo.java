@@ -4,11 +4,8 @@ public class Volvo implements Car {
 
     public int position;
     public int sensors_result = 0;
-<<<<<<< HEAD
-    public boolean parked;
-=======
     public boolean[] parking_situation;
->>>>>>> c231ae7 (moveforward return bool array)
+    public boolean parked;
 
 
     public Volvo(){
