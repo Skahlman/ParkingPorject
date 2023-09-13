@@ -4,6 +4,7 @@ public class Volvo implements Car {
 
     public int position;
     public int sensors_result = 0;
+    public boolean parked;
 
 
     public Volvo(){
@@ -34,11 +35,12 @@ public class Volvo implements Car {
 
     @Override
     public void Park() {
-
+        parked = true;
     }
 
     @Override
     public void UnPark() {
+        parked = false;
     }
 
     public void setSensors(int value) {
@@ -49,5 +51,10 @@ public class Volvo implements Car {
     @Override
     public String WhereIs() {
         return "The position of the car is: " + position;
+    }
+
+    public boolean isParked(){
+
+        return parked;
     }
 }

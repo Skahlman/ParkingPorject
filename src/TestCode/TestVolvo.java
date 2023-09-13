@@ -82,5 +82,27 @@ public class TestVolvo {
 
     }
 
+    @Test
+    public void TestPark(){
+
+        Volvo car = new Volvo();
+        boolean parked;
+        car.Park();
+        parked = car.isParked();
+        assertEquals(parked, true);
+
+    }
+
+    @Test
+    public void TestUnPark(){
+
+        Volvo car = new Volvo();
+        boolean parked;
+        car.UnPark();
+        parked = car.isParked();
+        assertEquals(parked, false);
+
+    }
+
 }
 
