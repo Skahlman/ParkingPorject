@@ -13,7 +13,7 @@ public interface Car {
      Test-cases: If the car is at the end of the street
 
      */
-    int MoveForward();
+    boolean[] MoveForward();
 
     /**
 
