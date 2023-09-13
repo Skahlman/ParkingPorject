@@ -3,7 +3,7 @@ package TestCode;
 import ProductionCode.Volvo;
 import org.junit.*;
 import static org.junit.Assert.*;
-import static org.junit.Assert.*;
+
 
 
 
