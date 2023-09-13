@@ -8,10 +8,12 @@ public class Volvo implements Car {
     public boolean parked;
 
 
+
     public Volvo(){
         this.position = 0;
         this.parking_situation = new boolean[500];
     }
+
     @Override
     public boolean[] MoveForward() {
         this.position++;
