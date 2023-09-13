@@ -41,8 +41,8 @@ public class Volvo implements Car {
     public void UnPark() {
     }
 
-    public void setSensors(int i) {
-        sensors_result = i;
+    public void setSensors(int value) {
+        sensors_result = value;
     }
 
 

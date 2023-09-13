@@ -3,6 +3,9 @@ package TestCode;
 import ProductionCode.Volvo;
 import org.junit.*;
 import static org.junit.Assert.*;
+import static org.junit.Assert.*;
+
+
 
 public class TestVolvo {
 
@@ -16,7 +19,6 @@ public class TestVolvo {
     public void isEmptyTest_returnsNotEmpty()
     {
         //Arrange – setup the testing objects and prepare the prerequisites for your test.
-
         Volvo car = new Volvo();
         car.setSensors(200);
         
@@ -27,6 +29,31 @@ public class TestVolvo {
         // Assert – verify the result.
         assertEquals(result,false);
     }
+
+
+
+      @Test
+    public void isEmptyTest_returnsEmpty()
+    {
+        //Arrange – setup the testing objects and prepare the prerequisites for your test.
+        Volvo car = new Volvo();
+        car.setSensors(0);
+        
+        //Act – perform the actual work of the test.
+        Boolean result = car.isEmpty();
+
+        // Assert – verify the result.
+        assertEquals(result,true);
+    }
+
+    @Test
+    public void isEmptyTest_NoisySensors_returnsError(){
+
+        //Volvo car = mock(Volvo.class);
+
+    }
+
+
     @Test
     public void TestwhereIs(){
 
