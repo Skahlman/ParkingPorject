@@ -86,6 +86,20 @@ public class TestVolvo {
 
     }
 
+     @Test
+    public void TestMoveBackward_BeginningOfStreet(){
+
+        //Arrange
+        Volvo car = new Volvo();
+        car.position = 0;
+       // boolean result = car.parking_situation[car.position];
+
+        //Act
+        int test = car.MoveBackward();
+        assertEquals(500, car.position);
+
+    }
+
     @Test
     public void TestBackward(){
 
