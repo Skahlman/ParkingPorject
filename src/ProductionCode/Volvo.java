@@ -4,17 +4,15 @@ public class Volvo implements Car {
 
     public int position;
     public int sensors_result = 0;
-<<<<<<< HEAD
     public boolean parked;
-=======
-    public boolean[] parking_situation;
->>>>>>> c231ae7 (moveforward return bool array)
+    boolean[] parking_situation;
 
 
     public Volvo(){
         this.position = 0;
         this.parking_situation = new boolean[500];
     }
+
     @Override
     public boolean[] MoveForward() {
         this.position++;
