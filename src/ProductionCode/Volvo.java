@@ -18,9 +18,7 @@ public class Volvo implements Car {
     @Override
     public boolean[] MoveForward() {
         this.position++;
-        
         parking_situation[position] = isEmpty(); // sets the position to empty or not empty
-
         return parking_situation;
     }
 

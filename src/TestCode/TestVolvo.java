@@ -50,7 +50,6 @@ public class TestVolvo {
     public void isEmptyTest_NoisySensors_returnsError(){
 
         //Volvo car = mock(Volvo.class);
-
     }
 
 
@@ -72,6 +71,21 @@ public class TestVolvo {
         assertEquals(position_integer, car.MoveForward());
 
     }
+
+    @Test
+    public void TestMoveForward_EndOfStreet(){
+
+        //Arrange
+        Volvo car = new Volvo();
+        car.position = 500;
+       // boolean result = car.parking_situation[car.position];
+
+        //Act
+        boolean[] bool = car.MoveForward();
+        assertEquals(500, car.position);
+
+    }
+
     @Test
     public void TestBackward(){
 
